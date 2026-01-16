@@ -36,6 +36,14 @@ platforms:
     name: "知乎"
   - id: "hupu"
     name: "虎扑"
+  - id: "douban"
+    name: "豆瓣"
+  - id: "coolapk"
+    name: "酷安"
+  - id: "36kr-quick"
+    name: "36氪 快讯"
+  - id: "36kr-renqi"
+    name: "36氪 人气榜"
 
 # ===============================================================
 # 3. 数据源 - RSS 订阅
@@ -69,10 +77,9 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
-      enabled: false                  # 禁用
+    - id: "RedNote"
+      name: "小红书热榜"
+      url: "https://tophub.today/n/L4MdA5ldxD"
 
     # 自定义源示例
     # - id: "custom-feed"
